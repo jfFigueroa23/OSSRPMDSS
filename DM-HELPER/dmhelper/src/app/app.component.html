@@ -1,0 +1,410 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head> -->
+<!--<app-root></app-root>-->
+<!--
+BODY TAG OPTIONS:
+=================
+Apply one or more of the following classes to get the
+desired effect
+|---------------------------------------------------------|
+| SKINS         | skin-blue                               |
+|               | skin-black                              |
+|               | skin-purple                             |
+|               | skin-yellow                             |
+|               | skin-red                                |
+|               | skin-green                              |
+|---------------------------------------------------------|
+|LAYOUT OPTIONS | fixed                                   |
+|               | layout-boxed                            |
+|               | layout-top-nav                          |
+|               | sidebar-collapse                        |
+|               | sidebar-mini                            |
+|---------------------------------------------------------|
+-->
+<!-- <body class="hold-transition skin-blue sidebar-mini"> -->
+  <div class="wrapper">
+
+    <!-- Main Header -->
+    <header class="main-header">
+
+      <!-- Logo -->
+      <a href="index2.html" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b>D</b>M</span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><b>DM</b>Helper 1.0</span>
+      </a>
+
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+
+            <!-- User Account Menu -->
+            <li class="dropdown user user-menu">
+              <!-- Menu Toggle Button -->
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <!-- The user image in the navbar-->
+                <img src="../assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                <span class="hidden-xs">Francisco Figueroa</span>
+              </a>
+              <ul class="dropdown-menu">
+                <!-- The user image in the menu -->
+                <li class="user-header">
+                  <img src="../assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                  <p>
+                    Francisco Figueroa - Desarrollador
+                    <small>Proyectos: 5</small>
+                  </p>
+                </li>
+                <!-- Menu Footer-->
+                <li class="user-footer">
+                  <div class="pull-left">
+                    <a href="#" class="btn btn-default btn-flat">Perfil</a>
+                  </div>
+                  <div class="pull-right">
+                    <a href="#" class="btn btn-default btn-flat">Cerrar sesión</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- Control Sidebar Toggle Button -->
+            <li>
+              <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar">
+
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel">
+          <div class="pull-left image">
+            <img src="assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          </div>
+          <div class="pull-left info">
+            <p>Francisco Figueroa</p>
+            <!-- Status -->
+            <a href="#"><i class="fa fa-circle text-success"></i> En línea</a>
+          </div>
+        </div>
+
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Buscar o crear...">
+            <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+          </div>
+        </form>
+        <!-- /.search form -->
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu" data-widget="tree">
+          <li class="header">PROYECTOS</li>
+          <!-- Optionally, you can add icons to the links -->
+          <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Proyecto 1</span></a></li>
+          <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Proyecto 2</span></a></li>
+          <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Proyecto 3</span></a></li>
+          <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Proyecto 4</span></a></li>
+          <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Proyecto 5</span></a></li>
+        </ul>
+        <!-- /.sidebar-menu -->
+      </section>
+      <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <section class="content-header">
+        <h1>
+          Proyecto 1
+          <small>Comprar un vehiculo usado</small>
+        </h1>
+        <!-- <ol class="breadcrumb">
+          <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+          <li class="active">Here</li>
+        </ol> -->
+      </section>
+
+      <!-- Main content -->
+      <section class="content container-fluid">
+
+        <!--------------------------
+          | Your Page Content Here |
+          -------------------------->
+
+          <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs nav-fill">
+
+              <li class="dropdown active">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">PUNTUACIÓN DIRECTA <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="active"><a aria-controls="SAW" data-toggle="tab" href="#tab_SAW" role="tab" aria-expanded="true">SAW</a></li>
+                  <li class=""><a aria-controls="COPRAS" data-toggle="tab" href="#tab_COPRAS" role="tab" aria-expanded="false">COPRAS</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">DISTANCIA<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class=""><a aria-controls="SAW" data-toggle="tab" href="#tab_GP" role="tab" aria-expanded="true">GP</a></li>
+                  <li class=""><a aria-controls="COPRAS" data-toggle="tab" href="#tab_TOPSIS" role="tab" aria-expanded="false">TOPSIS</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMPARACIÓN POR PARES<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class=""><a aria-controls="AHP" data-toggle="tab" href="#tab_AHP" role="tab" aria-expanded="true">AHP</a></li>
+                  <li class=""><a aria-controls="MACBETH" data-toggle="tab" href="#tab_MACBETH" role="tab" aria-expanded="false">MACBETH</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">SUPERACIÓN<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class=""><a aria-controls="ELECTREIII" data-toggle="tab" href="#tab_ELECTREIII" role="tab" aria-expanded="true">ELECTRE III</a></li>
+                  <li class=""><a aria-controls="PROMETHEE" data-toggle="tab" href="#tab_PROMETHEE" role="tab" aria-expanded="false">PROMETHEE</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">FUNCIÓN DE UTILIDAD<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class=""><a aria-controls="MAUT" data-toggle="tab" href="#tab_MAUT" role="tab" aria-expanded="true">MAUT</a></li>
+                  <li class=""><a aria-controls="MAVT" data-toggle="tab" href="#tab_MAVT" role="tab" aria-expanded="false">MAVT</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <div class="tab-content">
+
+              <div aria-labelledby="dropdown1-tab" class="tab-pane fade active in" id="tab_SAW" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_SAW-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_SAW-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>SAW</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_SAW-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_SAW-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown2-tab" class="tab-pane fade" id="tab_COPRAS" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_COPRAS-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_COPRAS-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>COPRAS</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_COPRAS-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_COPRAS-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown3-tab" class="tab-pane fade" id="tab_GP" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_GP-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_GP-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>GP</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_GP-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_GP-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown4-tab" class="tab-pane fade" id="tab_TOPSIS" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_TOPSIS-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_TOPSIS-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>TOPSIS</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_TOPSIS-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_TOPSIS-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown5-tab" class="tab-pane fade" id="tab_AHP" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_AHP-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_AHP-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>AHP</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_AHP-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_AHP-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown4-tab" class="tab-pane fade" id="tab_MACBETH" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_MACBETH-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_MACBETH-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>MACBETH</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_MACBETH-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_MACBETH-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown7-tab" class="tab-pane fade" id="tab_ELECTREIII" role="tabpanel">
+                <app-tab-electreiii></app-tab-electreiii>
+              </div>
+
+              <div aria-labelledby="dropdown8-tab" class="tab-pane fade" id="tab_PROMETHEE" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_PROMETHEE-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_PROMETHEE-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>PROMETHEE</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_PROMETHEE-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_PROMETHEE-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown9-tab" class="tab-pane fade" id="tab_MAUT" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_MAUT-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_MAUT-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>MAUT</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_MAUT-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_MAUT-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div aria-labelledby="dropdown8-tab" class="tab-pane fade" id="tab_MAVT" role="tabpanel">
+                <div class="nav-tabs-custom">
+                  <ul class="nav nav-tabs pull-right">
+                    <li class="disabled"><a href="#tab_MAVT-R" data-toggle="tab">Resultado</a></li>
+                    <li class="active"><a href="#tab_MAVT-E" data-toggle="tab">Entrada</a></li>
+                    <li class="pull-left header"><i class="fa fa-th"></i>MAVT</li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tab_MAVT-E">
+                     ENTRADA
+                    </div>
+                    <div class="tab-pane" id="tab_MAVT-R">
+                    RESULTADO
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <!-- /.tab-content -->
+          </div>
+          <!-- nav-tabs-custom -->
+        <!-- </div> -->
+            <!-- /.col -->
+      </section>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+      <!-- To the right -->
+      <div class="pull-right hidden-xs">
+        Facultad de Ingeniería Mochis
+      </div>
+      <!-- Default to the left -->
+      <strong>Copyright &copy; 2021 <a href="#">Universidad Autónoma de Sinaloa</a>.</strong> Derechos Reservados.
+    </footer>
+
+    <!-- Add the sidebar's background. This div must be placed
+    immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED JS SCRIPTS -->
+
+
+
+  <!-- jQuery 3 -->
+   <!-- <script src="assets/bower_components/jquery/dist/jquery.min.js"></script> -->
+  <!-- Bootstrap 3.3.7 -->
+   <!-- <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
+  <!-- AdminLTE App -->
+   <!-- <script src="assets/dist/js/adminlte.min.js"></script> -->
+
+  <!-- Optionally, you can add Slimscroll and FastClick plugins.
+       Both of these plugins are recommended to enhance the
+       user experience. -->
+  <!-- </body>
+</html> -->

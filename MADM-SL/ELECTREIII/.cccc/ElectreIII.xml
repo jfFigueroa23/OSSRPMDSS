@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module ElectreIII-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="645" level="1" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="175" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="86" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="7.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="2.035" level="0" />
+<weighted_methods_per_class_unity value="16" level="0" />
+<weighted_methods_per_class_visibility value="16" level="0" />
+<depth_of_inheritance_tree value="2" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="8" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="ElectreIII.hpp" line="12" />
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>CalcularMatrizConcordancia()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="48" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="123" />
+</extent>
+<lines_of_code value="53" level="1" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="3" level="0" />
+<lines_of_code_per_line_of_comment value="17.667" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.667" level="0" />
+</member_function>
+<member_function>
+<name>CalcularMatrizCredibilidad()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="50" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="272" />
+</extent>
+<lines_of_code value="33" level="1" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="16.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.000" level="0" />
+</member_function>
+<member_function>
+<name>CalcularMatrizDiscordancia()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="49" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="195" />
+</extent>
+<lines_of_code value="51" level="1" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="7" level="0" />
+<lines_of_code_per_line_of_comment value="7.286" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.571" level="0" />
+</member_function>
+<member_function>
+<name>CalcularMatrizTDE(Ranking *,double)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="52" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="449" />
+</extent>
+<lines_of_code value="102" level="2" />
+<McCabes_cyclomatic_complexity value="35" level="2" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="12.750" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.375" level="0" />
+</member_function>
+<member_function>
+<name>CalcularMatrizTFN(double)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="51" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="340" />
+</extent>
+<lines_of_code value="86" level="1" />
+<McCabes_cyclomatic_complexity value="27" level="1" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="14.333" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="4.500" level="0" />
+</member_function>
+<member_function>
+<name>CompararRankings(Ranking,Ranking)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="53" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="867" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>Construir()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="17" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="318" />
+</extent>
+<lines_of_code value="15" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>ElectreIII(int,int,double)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="15" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="16" />
+</extent>
+<lines_of_code value="27" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="1.929" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.357" level="0" />
+</member_function>
+<member_function>
+<name>ExplotarDestilacion()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="22" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="626" />
+</extent>
+<lines_of_code value="130" level="2" />
+<McCabes_cyclomatic_complexity value="40" level="2" />
+<lines_of_comment value="23" level="0" />
+<lines_of_code_per_line_of_comment value="5.652" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.739" level="0" />
+</member_function>
+<member_function>
+<name>ExplotarFlujoNeto()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="21" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="595" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="4" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>FormatearSalidaRanking(string &amp;,Ranking *,short)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="54" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="578" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>ObtenerMatrizConcordancia()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="18" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="868" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>ObtenerMatrizCredibilidad()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="20" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="870" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>ObtenerMatrizDiscordancia()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="19" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="869" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>RankearTmp(Ranking *,int)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="55" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="797" />
+</extent>
+<lines_of_code value="55" level="1" />
+<McCabes_cyclomatic_complexity value="23" level="1" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="9.167" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.833" level="0" />
+</member_function>
+<member_function>
+<name>~ElectreIII()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="ElectreIII.hpp" line="16" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="ElectreIII.cpp" line="71" />
+</extent>
+<lines_of_code value="26" level="0" />
+<McCabes_cyclomatic_complexity value="5" level="0" />
+<lines_of_comment value="14" level="0" />
+<lines_of_code_per_line_of_comment value="1.857" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.357" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>ElectreIII</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>AlternativaMC</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="28" />
+</extent>
+<name>AlternativaMCR</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="30" />
+</extent>
+<name>AlternativaMDI</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="29" />
+</extent>
+<name>AlternativaMT</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="31" />
+</extent>
+<name>Ranking</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="32" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="33" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="34" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="35" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="ElectreIII.hpp" line="36" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.hpp" line="52" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ElectreIII.hpp" line="53" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ElectreIII.hpp" line="53" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.hpp" line="54" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.hpp" line="55" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.cpp" line="449" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.cpp" line="578" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.cpp" line="797" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ElectreIII.cpp" line="867" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ElectreIII.cpp" line="867" />
+</extent>
+<name>Superacion</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>inheritance</description>
+<source_reference file="ElectreIII.hpp" line="12" />
+</extent>
+<name>short</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="ElectreIII.hpp" line="54" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="ElectreIII.cpp" line="578" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="37" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="38" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="39" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="40" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="41" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="42" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="43" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="ElectreIII.hpp" line="44" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.hpp" line="54" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="ElectreIII.cpp" line="578" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

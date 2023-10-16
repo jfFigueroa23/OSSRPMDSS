@@ -1,0 +1,52 @@
+<div class="nav-tabs-custom">
+  <ul class="nav nav-tabs pull-right">
+
+    <li class="disabled"><a href="#tab_ELECTREIII-R" data-toggle="tab">RESULTADO</a></li>
+
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">MATRIZ DE DESEMPEÑO<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li class=""><a aria-controls="ileiii" data-toggle="modal" href="#emdl" role="tab" aria-expanded="true">Inicializar layout...</a></li>
+        <li class=""><a aria-controls="careiii" data-toggle="modal" href="#emdl2" role="tab" aria-expanded="false">Cargar desde archivo...</a></li>
+      </ul>
+    </li>
+
+     <li class="pull-left header"><i class="fa fa-th"></i>ELECTREIII</li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab_ELECTREIII-E">
+
+      <app-ini-matriz-entrada></app-ini-matriz-entrada>
+
+      <app-car-matriz-archivo></app-car-matriz-archivo>
+
+      <p-table [columns]="cols" [value]="users">
+        <ng-template pTemplate="caption">
+      Users List
+        </ng-template>
+        <ng-template pTemplate="header" let-columns>
+            <tr>
+                <th *ngFor="let col of columns">
+                    {{col.header}}
+                </th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-user let-columns="columns">
+            <tr>
+                <td *ngFor="let col of columns">
+                    {{user[col.field]}}
+                </td>
+            </tr>
+        </ng-template>
+      </p-table>
+
+      <br>
+
+      <a class="btn btn-success disabled" id="btnCalcular">Calcular</a>
+
+    </div>
+    <div class="tab-pane" id="tab_ELECTREIII-R">
+    RESULTADO
+    </div>
+  </div>
+</div>

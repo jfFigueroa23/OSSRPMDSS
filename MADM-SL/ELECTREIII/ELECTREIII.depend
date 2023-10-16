@@ -1,0 +1,1035 @@
+# depslib dependency file v1.0
+1600746235 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/explotacion_des/explotacion_des.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<stdlib.h>
+	<math.h>
+	"../utilerias/cfgglobal.h"
+	"../explotacion_cmn/explotacion_cmn.h"
+	"explotacion_des.h"
+
+1604003650 on_des.h"
+
+1603688707 /media/francisco/Varios/Software/Sistemas/ELECTREIII/utilerias/cfgglobal.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604112275 
+
+1600746235 /media/francisco/Varios/Software/Sistemas/ELECTREIII/explotacion_cmn/explotacion_cmn.h
+	<stdio.h>
+	<stdlib.h>
+
+1600746235 /media/francisco/Varios/Software/Sistemas/ELECTREIII/explotacion_des/explotacion_des.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1600746235 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/explotacion_fn/explotacion_fn.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../utilerias/cfgglobal.h"
+	"../explotacion_cmn/explotacion_cmn.h"
+
+1604003650 acion_cmn/explotacion_cmn.h"
+
+1600746235 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/utilerias/salida.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"cfgglobal.h"
+	"salida.h"
+
+1600746235 /media/francisco/Varios/Software/Sistemas/ELECTREIII/utilerias/salida.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1602806341 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/explotacion_cmn/explotacion_cmn.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+	<math.h>
+	"../utilerias/cfgglobal.h"
+
+1604003650 ias/cfgglobal.h"
+
+1602807436 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/construccion/construccion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	"../utilerias/cfgglobal.h"
+	"construccion.h"
+
+1604113317 ion.h"
+
+1602803850 /media/francisco/Varios/Software/Sistemas/ELECTREIII/construccion/construccion.h
+	<stdio.h>
+	<stdlib.h>
+
+1602807624 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/utilerias/cfgglobal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	"cfgglobal.h"
+
+1604113782 .h"
+
+1603684597 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/utilerias/entrada.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<WTypes.h>
+	<comdef.h>
+	<comutil.h>
+	"cfgglobal.h"
+	"entrada.h"
+
+1604114047 "
+
+1603763549 /media/francisco/Varios/Software/Sistemas/ELECTREIII/utilerias/entrada.h
+	<stdio.h>
+	<stdlib.h>
+	<WTypes.h>
+	<comdef.h>
+	<comutil.h>
+
+1603763549 >
+
+1603763421 source:/media/francisco/Varios/Software/Sistemas/ELECTREIII/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<comdef.h>
+	<comutil.h>
+	"utilerias/cfgglobal.h"
+	"utilerias/entrada.h"
+	"utilerias/salida.h"
+	"construccion/construccion.h"
+	"explotacion_fn/explotacion_fn.h"
+	"explotacion_des/explotacion_des.h"
+	"ptc/pct.h"
+
+1600746235 /media/francisco/Varios/Software/Sistemas/ELECTREIII/explotacion_fn/explotacion_fn.h
+	<stdio.h>
+	<stdlib.h>
+
+1600746235 /media/francisco/Varios/Software/Sistemas/ELECTREIII/ptc/pct.h
+	<iostream>
+	<iomanip>
+
+1602807436 source:d:\software\sistemas\electreiii\construccion\construccion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	"../utilerias/cfgglobal.h"
+	"construccion.h"
+
+1603688707 d:\software\sistemas\electreiii\utilerias\cfgglobal.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1602803850 d:\software\sistemas\electreiii\construccion\construccion.h
+	<stdio.h>
+	<stdlib.h>
+
+1602806341 source:d:\software\sistemas\electreiii\explotacion_cmn\explotacion_cmn.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+	<math.h>
+	"../utilerias/cfgglobal.h"
+
+1600746235 source:d:\software\sistemas\electreiii\explotacion_des\explotacion_des.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<stdlib.h>
+	<math.h>
+	"../utilerias/cfgglobal.h"
+	"../explotacion_cmn/explotacion_cmn.h"
+	"explotacion_des.h"
+
+1600746235 d:\software\sistemas\electreiii\explotacion_cmn\explotacion_cmn.h
+	<stdio.h>
+	<stdlib.h>
+
+1600746235 d:\software\sistemas\electreiii\explotacion_des\explotacion_des.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1600746235 source:d:\software\sistemas\electreiii\explotacion_fn\explotacion_fn.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../utilerias/cfgglobal.h"
+	"../explotacion_cmn/explotacion_cmn.h"
+
+1603763421 source:d:\software\sistemas\electreiii\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<comdef.h>
+	<comutil.h>
+	"utilerias/cfgglobal.h"
+	"utilerias/entrada.h"
+	"utilerias/salida.h"
+	"construccion/construccion.h"
+	"explotacion_fn/explotacion_fn.h"
+	"explotacion_des/explotacion_des.h"
+	"ptc/pct.h"
+
+1603763549 d:\software\sistemas\electreiii\utilerias\entrada.h
+	<stdio.h>
+	<stdlib.h>
+	<WTypes.h>
+	<comdef.h>
+	<comutil.h>
+
+1600746235 d:\software\sistemas\electreiii\utilerias\salida.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1600746235 d:\software\sistemas\electreiii\explotacion_fn\explotacion_fn.h
+	<stdio.h>
+	<stdlib.h>
+
+1600746235 d:\software\sistemas\electreiii\ptc\pct.h
+	<iostream>
+	<iomanip>
+
+1600746235 source:d:\software\sistemas\electreiii\ptc\pct.cpp
+	<iostream>
+	<iomanip>
+
+1602807624 source:d:\software\sistemas\electreiii\utilerias\cfgglobal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	"cfgglobal.h"
+
+1603684597 source:d:\software\sistemas\electreiii\utilerias\entrada.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<WTypes.h>
+	<comdef.h>
+	<comutil.h>
+	"cfgglobal.h"
+	"entrada.h"
+
+1600746235 source:d:\software\sistemas\electreiii\utilerias\salida.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"cfgglobal.h"
+	"salida.h"
+
+1604113317 source:d:\software\sistemas\investigacion\electreiii\construccion\construccion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	"../utilerias/cfgglobal.h"
+	"construccion.h"
+
+1604113591 d:\software\sistemas\investigacion\electreiii\utilerias\cfgglobal.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604113247 d:\software\sistemas\investigacion\electreiii\construccion\construccion.h
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 source:d:\software\sistemas\investigacion\electreiii\explotacion_cmn\explotacion_cmn.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+	<math.h>
+	"../utilerias/cfgglobal.h"
+
+1604003650 source:d:\software\sistemas\investigacion\electreiii\explotacion_des\explotacion_des.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<stdlib.h>
+	<math.h>
+	"../utilerias/cfgglobal.h"
+	"../explotacion_cmn/explotacion_cmn.h"
+	"explotacion_des.h"
+
+1604003650 d:\software\sistemas\investigacion\electreiii\explotacion_cmn\explotacion_cmn.h
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 d:\software\sistemas\investigacion\electreiii\explotacion_des\explotacion_des.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604003650 source:d:\software\sistemas\investigacion\electreiii\explotacion_fn\explotacion_fn.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../utilerias/cfgglobal.h"
+	"../explotacion_cmn/explotacion_cmn.h"
+
+1614979073 source:d:\software\sistemas\investigacion\electreiii\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<string>
+	<fstream>
+	<streambuf>
+	"ElectreIII.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+
+1614975473 IAS/utilerias/utilerias.hpp"
+
+1621395088 I.hpp"
+
+1604112275 d:\software\sistemas\investigacion\electreiii\utilerias\entrada.h
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 d:\software\sistemas\investigacion\electreiii\utilerias\salida.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604003650 d:\software\sistemas\investigacion\electreiii\explotacion_fn\explotacion_fn.h
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 d:\software\sistemas\investigacion\electreiii\ptc\pct.h
+	<iostream>
+	<iomanip>
+
+1604003650 source:d:\software\sistemas\investigacion\electreiii\ptc\pct.cpp
+	<iostream>
+	<iomanip>
+
+1604113782 source:d:\software\sistemas\investigacion\electreiii\utilerias\cfgglobal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.h"
+
+1604114047 source:d:\software\sistemas\investigacion\electreiii\utilerias\entrada.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.h"
+	"entrada.h"
+
+1604003650 source:d:\software\sistemas\investigacion\electreiii\utilerias\salida.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"cfgglobal.h"
+	"salida.h"
+
+1604968807 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/construccion/construccion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<cstring>
+	"../../LIBRERIAS/utilerias/cfgglobal.hpp"
+	"construccion.hpp"
+
+1604968807 ion.hpp"
+
+1604113591 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/cfgglobal.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604113247 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/construccion/construccion.h
+	<stdio.h>
+	<stdlib.h>
+
+1605286278 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_cmn/explotacion_cmn.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+	<math.h>
+	"../../LIBRERIAS/utilerias/cfgglobal.hpp"
+
+1605286278 RERIAS/utilerias/cfgglobal.hpp"
+
+1605244264 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_des/explotacion_des.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<stdlib.h>
+	<math.h>
+	"../../LIBRERIAS/utilerias/cfgglobal.hpp"
+	"../explotacion_cmn/explotacion_cmn.hpp"
+	"explotacion_des.hpp"
+
+1605244264 on_des.hpp"
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_cmn/explotacion_cmn.h
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_des/explotacion_des.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1605244776 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_fn/explotacion_fn.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../../LIBRERIAS/utilerias/cfgglobal.hpp"
+	"../explotacion_cmn/explotacion_cmn.hpp"
+
+1605244776 acion_cmn/explotacion_cmn.hpp"
+
+1614975473 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"ElectreIII.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	"ElectreIII.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	"ElectreIII.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<string>
+	<fstream>
+	<streambuf>
+	"ElectreIII.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<string>
+	<fstream>
+	<streambuf>
+	"ElectreIII.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+
+1604112275 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/entrada.h
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/salida.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_fn/explotacion_fn.h
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/ptc/pct.h
+	<iostream>
+	<iomanip>
+
+1604003650 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/ptc/pct.cpp
+	<iostream>
+	<iomanip>
+
+1604966248 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/cfgglobal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.hpp"
+
+1612745348 .hpp"
+
+1604966213 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/entrada.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.hpp"
+	"entrada.hpp"
+
+1604966213 pp"
+
+1604966301 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/salida.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"cfgglobal.hpp"
+	"salida.hpp"
+
+1604966301 p"
+
+1604113591 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/cfgglobal.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604112275 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/entrada.hpp
+	<stdio.h>
+	<stdlib.h>
+
+1604113247 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/construccion/construccion.hpp
+	<stdio.h>
+	<stdlib.h>
+
+1605244295 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_cmn/explotacion_cmn.hpp
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_des/explotacion_des.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/utilerias/salida.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/explotacion_fn/explotacion_fn.hpp
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/ptc/pct.hpp
+	<iostream>
+	<iomanip>
+
+1604966248 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/cfgglobal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.hpp"
+
+1604113591 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/cfgglobal.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604966213 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/entrada.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.hpp"
+	"entrada.hpp"
+
+1604112275 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/entrada.hpp
+	<stdio.h>
+	<stdlib.h>
+
+1604966301 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/salida.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"cfgglobal.hpp"
+	"salida.hpp"
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/salida.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1605587827 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1605587827 ticriterio.hpp"
+
+1614897869 source:/media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/Superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1614901469 n.hpp"
+
+1614897832 /media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/Superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1614901432 MULTICRITERIO/MetodoMulticriterio.hpp"
+
+1606581928 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1621395088 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/ElectreIII.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+
+1606622267 /media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIII/ElectreIII.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+
+1606625867 CION/Superacion.hpp"
+
+1612745348 source:d:\software\sistemas\investigacion\librerias\utilerias\utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612745348 d:\software\sistemas\investigacion\librerias\utilerias\utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1621395088 source:d:\software\sistemas\investigacion\electreiii\electreiii.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+
+1606625867 d:\software\sistemas\investigacion\electreiii\electreiii.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+
+1614901432 d:\software\sistemas\investigacion\superacion\superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1606585528 d:\software\sistemas\investigacion\metodomulticriterio\metodomulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1614901469 source:d:\software\sistemas\investigacion\superacion\superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1612741748 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612741748 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1612741748 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612741748 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1614897869 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/SUPERACION/Superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1606581928 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1614897832 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/SUPERACION/Superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1621395088 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/ELECTREIII/ElectreIII.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+
+1606622267 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/ELECTREIII/ElectreIII.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+
+1614975473 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/ELECTREIII/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<string>
+	<fstream>
+	<streambuf>
+	"ElectreIII.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+
+1612745348 source:d:\software\sistemas\investigacion\madm-sl\librerias\utilerias\utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612745348 d:\software\sistemas\investigacion\madm-sl\librerias\utilerias\utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1614901469 source:d:\software\sistemas\investigacion\madm-sl\superacion\superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1606585528 d:\software\sistemas\investigacion\madm-sl\metodomulticriterio\metodomulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1614901432 d:\software\sistemas\investigacion\madm-sl\superacion\superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1621395088 source:d:\software\sistemas\investigacion\madm-sl\electreiii\electreiii.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+
+1606625867 d:\software\sistemas\investigacion\madm-sl\electreiii\electreiii.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+
+1612741748 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612741748 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1614897869 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/SUPERACION/Superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1606581928 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1614897832 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/SUPERACION/Superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1621395088 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/ELECTREIII/ElectreIII.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+
+1606622267 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/ELECTREIII/ElectreIII.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+
+1634871281 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/ELECTREIII/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<string>
+	<fstream>
+	<streambuf>
+	"ElectreIII.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+

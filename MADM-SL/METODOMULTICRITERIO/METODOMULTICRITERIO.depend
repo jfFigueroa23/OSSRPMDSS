@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1606069820 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1606085635 ticriterio.hpp"
+
+1605487417 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/main.cpp
+	<iostream>
+
+1606076224 
+
+1606069595 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1605487417 source:d:\software\sistemas\investigacion\metodomulticriterio\main.cpp
+	<iostream>
+
+1606085635 source:d:\software\sistemas\investigacion\metodomulticriterio\metodomulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1606076224 d:\software\sistemas\investigacion\metodomulticriterio\metodomulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1605487417 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/main.cpp
+	<iostream>
+
+1606362254 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1606581928 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+

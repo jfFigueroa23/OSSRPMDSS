@@ -1,0 +1,265 @@
+# depslib dependency file v1.0
+1604966248 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/cfgglobal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.hpp"
+
+1606345008 .hpp"
+
+1604113591 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/cfgglobal.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1604112275 
+
+1606954305 source:/media/francisco/Varios/Software/Sistemas/Investigacion/PCT/pct.cpp
+	<iostream>
+	<iomanip>
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"pct.hpp"
+
+1606954305 source:/media/francisco/Varios/Software/Sistemas/Investigacion/PCT/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"../LIBRERIAS/utilerias/cfgglobal.hpp"
+	"../LIBRERIAS/utilerias/entrada.hpp"
+	"../LIBRERIAS/utilerias/salida.hpp"
+	"pct.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"pct.hpp"
+
+1604112275 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/entrada.hpp
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/salida.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606954305 /media/francisco/Varios/Software/Sistemas/Investigacion/PCT/pct.hpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOASIGNACIONPESOS/MetodoAsignacionPesos.hpp"
+
+1606954305 ASIGNACIONPESOS/MetodoAsignacionPesos.hpp"
+
+1604966248 source:d:\software\sistemas\investigacion\librerias\utilerias\cfgglobal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"cfgglobal.hpp"
+
+1604113591 d:\software\sistemas\investigacion\librerias\utilerias\cfgglobal.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1607018487 source:d:\software\sistemas\investigacion\pct\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"pct.hpp"
+
+1604112275 d:\software\sistemas\investigacion\librerias\utilerias\entrada.hpp
+	<stdio.h>
+	<stdlib.h>
+
+1604003650 d:\software\sistemas\investigacion\librerias\utilerias\salida.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606954305 d:\software\sistemas\investigacion\pct\pct.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOASIGNACIONPESOS/MetodoAsignacionPesos.hpp"
+
+1606954305 source:d:\software\sistemas\investigacion\pct\pct.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"pct.hpp"
+
+1606345008 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1606345013 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606362244 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606447847 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOASIGNACIONPESOS/MetodoAsignacionPesos.cpp
+	"MetodoAsignacionPesos.hpp"
+
+1606447847 gnacionPesos.hpp"
+
+1606708273 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOASIGNACIONPESOS/MetodoAsignacionPesos.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606345008 source:d:\software\sistemas\investigacion\librerias\utilerias\utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1606345013 d:\software\sistemas\investigacion\librerias\utilerias\utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606447847 source:d:\software\sistemas\investigacion\metodoasignacionpesos\metodoasignacionpesos.cpp
+	"MetodoAsignacionPesos.hpp"
+
+1606708273 d:\software\sistemas\investigacion\metodoasignacionpesos\metodoasignacionpesos.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1612741748 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612741748 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1606447847 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/METODOASIGNACIONPESOS/MetodoAsignacionPesos.cpp
+	"MetodoAsignacionPesos.hpp"
+
+1606708273 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/METODOASIGNACIONPESOS/MetodoAsignacionPesos.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1607018487 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/PCT/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"pct.hpp"
+
+1606954305 /media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/PCT/pct.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOASIGNACIONPESOS/MetodoAsignacionPesos.hpp"
+
+1606954305 source:/media/francisco/Varios/Software/Sistemas/Investigacion/MADM-SL/PCT/pct.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"pct.hpp"
+
+1612745348 source:d:\software\sistemas\investigacion\madm-sl\librerias\utilerias\utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612745348 d:\software\sistemas\investigacion\madm-sl\librerias\utilerias\utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1606451447 source:d:\software\sistemas\investigacion\madm-sl\metodoasignacionpesos\metodoasignacionpesos.cpp
+	"MetodoAsignacionPesos.hpp"
+
+1606711873 d:\software\sistemas\investigacion\madm-sl\metodoasignacionpesos\metodoasignacionpesos.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1633533608 source:d:\software\sistemas\investigacion\madm-sl\pct\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	"pct.hpp"
+
+1606957905 d:\software\sistemas\investigacion\madm-sl\pct\pct.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOASIGNACIONPESOS/MetodoAsignacionPesos.hpp"
+
+1606957905 source:d:\software\sistemas\investigacion\madm-sl\pct\pct.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"pct.hpp"
+

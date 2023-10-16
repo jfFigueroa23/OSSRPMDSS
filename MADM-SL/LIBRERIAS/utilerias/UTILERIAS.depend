@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1514140574 source:d:\software\sistemas\investigacion\librerias\utilerias\main.cpp
+	<iostream>
+
+1514140574 
+
+1514140574 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/main.cpp
+	<iostream>
+
+1612741748 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612741748 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+

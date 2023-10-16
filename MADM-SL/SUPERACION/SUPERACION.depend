@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1606074480 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1606344296 ticriterio.hpp"
+
+1605484464 source:/media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/main.cpp
+	<iostream>
+
+1606344296 
+
+1606074480 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1605922835 source:/media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/Superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"Superacion.hpp"
+
+1606099264 n.hpp"
+
+1606017256 /media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/Superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1606098522 MULTICRITERIO/MetodoMulticriterio.hpp"
+
+1605484464 source:d:\software\sistemas\investigacion\superacion\main.cpp
+	<iostream>
+
+1606099264 source:d:\software\sistemas\investigacion\superacion\superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"Superacion.hpp"
+
+1606344296 d:\software\sistemas\investigacion\metodomulticriterio\metodomulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606098522 d:\software\sistemas\investigacion\superacion\superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1606344296 source:d:\software\sistemas\investigacion\metodomulticriterio\metodomulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1606345008 source:/media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1606345013 /media/francisco/Varios/Software/Sistemas/Investigacion/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606362254 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1606581928 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1605484464 source:/media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/main.cpp
+	<iostream>
+
+1606616296 source:/media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/Superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1606625625 /media/francisco/Varios/Software/Sistemas/Investigacion/SUPERACION/Superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+

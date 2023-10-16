@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1606442894 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOASIGNACIONPESOS/main.cpp
+	<iostream>
+
+1606447847 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOASIGNACIONPESOS/MetodoAsignacionPesos.cpp
+	"MetodoAsignacionPesos.hpp"
+
+1606624605 /media/francisco/Varios/Software/Sistemas/Investigacion/METODOASIGNACIONPESOS/MetodoAsignacionPesos.hpp
+
