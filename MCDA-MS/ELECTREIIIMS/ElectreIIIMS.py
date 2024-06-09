@@ -17,11 +17,13 @@ def convert(s):
 app = Flask(__name__)
 
 @app.route("/ElectreIII/ExplotarFlujoNeto", methods=['GET', 'POST'])
-@login_required
+#@login_required
 def ElectreIIIExplotarFlujoNeto():
     
     plt = platform.system()
-    if   plt == "Windows":  TestLib = ctypes.cdll.LoadLibrary(r'D:\Software\Sistemas\Investigacion\ELECTREIIISL\bin\Debug\ELECTREIIISL.dll')        
+    #if   plt == "Windows":  TestLib = ctypes.cdll.LoadLibrary(r'D:\Software\Sistemas\Investigacion\OSSRPMDSS\MCDA-SL\ELECTREIIISL\bin\Debug\ELECTREIIISL.dll')        
+    #if   plt == "Windows":  TestLib = ctypes.cdll.LoadLibrary(os.getcwd() + '\ELECTREIIISL.dll')        
+    if   plt == "Windows":  TestLib = CDLL(os.getcwd() + '\ELECTREIIISL.dll')        
     else: TestLib = ctypes.cdll.LoadLibrary('/home/francisco/Software/Sistemas/Investigacion/MADM-SL/ELECTREIIISL/bin/Debug/libELECTREIIISL.so')   
    
     if request.method == 'POST':
@@ -41,11 +43,11 @@ def ElectreIIIExplotarFlujoNeto():
     return jsonify(res)
 
 @app.route("/ElectreIII/ExplotarDestilacion", methods=['GET', 'POST'])
-@login_required
+#@login_required
 def ElectreIIIExplotarDestilacion():
     
     plt = platform.system()
-    if   plt == "Windows":  TestLib = ctypes.cdll.LoadLibrary(r'D:\Software\Sistemas\Investigacion\ELECTREIIISL\bin\Debug\ELECTREIIISL.dll')        
+    if   plt == "Windows":  TestLib = ctypes.cdll.LoadLibrary(r'D:\Software\Sistemas\Investigacion\OSSRPMDSS\MCDA-SL\ELECTREIIISL\bin\Debug\ELECTREIIISL.dll')        
     else: TestLib = ctypes.cdll.LoadLibrary('/home/francisco/Software/Sistemas/Investigacion/ELECTREIIISL/bin/Debug/libELECTREIIISL.so')   
    
     if request.method == 'POST':

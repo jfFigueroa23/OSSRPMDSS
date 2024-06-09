@@ -1098,3 +1098,68 @@
 	"ElectreIII.hpp"
 	"../LIBRERIAS/utilerias/utilerias.hpp"
 
+1612741748 source:/media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/LIBRERIAS/utilerias/utilerias.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"utilerias.hpp"
+
+1612741748 /media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/LIBRERIAS/utilerias/utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1614897869 source:/media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/SUPERACION/Superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1606581928 /media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/METODOMULTICRITERIO/MetodoMulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1614897832 /media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/SUPERACION/Superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1621395088 source:/media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/ELECTREIII/ElectreIII.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+
+1606622267 /media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/ELECTREIII/ElectreIII.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+
+1716873612 source:/media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/ELECTREIII/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	<string>
+	<fstream>
+	<streambuf>
+	"ElectreIII.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+
