@@ -35,7 +35,7 @@ def ElectreIIIExplotarFlujoNeto():
         os.add_dll_directory(r'C:\Users\jffig\anaconda3\pkgs\m2w64-gcc-libs-5.3.0-7\Library\mingw-w64\bin')
         os.add_dll_directory(r'C:\Users\jffig\anaconda3\Library\mingw-w64\bin')
         TestLib = ctypes.WinDLL(r'D:\Software\Sistemas\Investigacion\OSSRPMDSS\MCDA-SL\ELECTREIIISL\bin\Debug\ELECTREIIISL.dll')             
-    else: TestLib = ctypes.cdll.LoadLibrary('/home/francisco/Software/Sistemas/Investigacion/MADM-SL/ELECTREIIISL/bin/Debug/libELECTREIIISL.so')   
+    else: TestLib = ctypes.cdll.LoadLibrary('/media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/ELECTREIIISL/bin/Debug/libELECTREIIISL.so')   
    
     if request.method == 'POST':
         na = int(convert(request.form.get("na")))
@@ -72,7 +72,7 @@ def ElectreIIIExplotarDestilacion():
         os.add_dll_directory(r'C:\Users\jffig\anaconda3\pkgs\m2w64-gcc-libs-5.3.0-7\Library\mingw-w64\bin')
         os.add_dll_directory(r'C:\Users\jffig\anaconda3\Library\mingw-w64\bin')
         TestLib = ctypes.WinDLL(r'D:\Software\Sistemas\Investigacion\OSSRPMDSS\MCDA-SL\ELECTREIIISL\bin\Debug\ELECTREIIISL.dll')   
-    else: TestLib = ctypes.cdll.LoadLibrary('/home/francisco/Software/Sistemas/Investigacion/ELECTREIIISL/bin/Debug/libELECTREIIISL.so')   
+    else: TestLib = ctypes.cdll.LoadLibrary('/media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MCDA-SL/ELECTREIIISL/bin/Debug/libELECTREIIISL.so')   
    
     if request.method == 'POST':
         na = int(convert(request.form.get("na")))
