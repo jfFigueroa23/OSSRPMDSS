@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "bdc8eb23-0697-4371-9126-9800b51bd88d",
+		"name": "LOCAL - OSSRPMDSS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25207496"
+	},
+	"item": [
+		{
+			"name": "ELECTRE III - FLUJO NETO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8082/ElectreIII/ExplotarFlujoNeto?na=3&nc=3&c=0.70&md=-,EC,EN,SO;\nP1,550,558,6;\nP2,650,120,4;\nP3,88,200,3;\nW,0.2,0.5,0.3;\nP,23,80,2;\nI,17,40,1;\nV,30,85,0;\nD,1,1,1;",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"ElectreIII",
+						"ExplotarFlujoNeto"
+					],
+					"query": [
+						{
+							"key": "na",
+							"value": "3"
+						},
+						{
+							"key": "nc",
+							"value": "3"
+						},
+						{
+							"key": "c",
+							"value": "0.70"
+						},
+						{
+							"key": "md",
+							"value": "-,EC,EN,SO;\nP1,550,558,6;\nP2,650,120,4;\nP3,88,200,3;\nW,0.2,0.5,0.3;\nP,23,80,2;\nI,17,40,1;\nV,30,85,0;\nD,1,1,1;",
+							"description": "127.0.0.1:8082/ElectreIII/ExplotarFlujoNeto?na=3&nc=3&c=0.70&md=-%2CEC%2CEN%2CSO%3BP1%2C550%2C558%2C6%3BP2%2C650%2C120%2C4%3BP3%2C88%2C200%2C3%3BW%2C0.2%2C0.5%2C0.3%3BP%2C23%2C80%2C2%3BI%2C17%2C40%2C1%3BV%2C30%2C85%2C0%3BD%2C1%2C1%2C1%3B"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ELECTRE III - DESTILACIÓN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/ElectreIII/ExplotarDestilacion?na=3&nc=3&c=0.70&md=-,EC,EN,SO;\nP1,550,558,6;\nP2,650,120,4;\nP3,88,200,3;\nW,0.2,0.5,0.3;\nP,23,80,2;\nI,17,40,1;\nV,30,85,0;\nD,1,1,1;",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"ElectreIII",
+						"ExplotarDestilacion"
+					],
+					"query": [
+						{
+							"key": "na",
+							"value": "3"
+						},
+						{
+							"key": "nc",
+							"value": "3"
+						},
+						{
+							"key": "c",
+							"value": "0.70"
+						},
+						{
+							"key": "md",
+							"value": "-,EC,EN,SO;\nP1,550,558,6;\nP2,650,120,4;\nP3,88,200,3;\nW,0.2,0.5,0.3;\nP,23,80,2;\nI,17,40,1;\nV,30,85,0;\nD,1,1,1;",
+							"description": "127.0.0.1:8082/ElectreIII/ExplotarDestilacion?na=3&nc=3&c=0.70&md=-%2CEC%2CEN%2CSO%3BP1%2C550%2C558%2C6%3BP2%2C650%2C120%2C4%3BP3%2C88%2C200%2C3%3BW%2C0.2%2C0.5%2C0.3%3BP%2C23%2C80%2C2%3BI%2C17%2C40%2C1%3BV%2C30%2C85%2C0%3BD%2C1%2C1%2C1%3B"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GTW ELECTRE III - FLUJO NETO",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GTW ELECTRE III - DESTILACIÓN",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

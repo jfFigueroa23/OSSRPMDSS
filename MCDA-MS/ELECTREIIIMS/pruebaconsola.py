@@ -2,12 +2,8 @@ import ctypes
 import os 
 from ctypes import *
 
-print (os.getcwd())
-
-os.add_dll_directory(os.getcwd())
-       
-#TestLib = ctypes.cdll.LoadLibrary(r'ELECTREIIISL.dll')    
-#TestLib = CDLL(r'ELECTREIIISL.dll')    
-TestLib = ctypes.WinDLL(r'ELECTREIIISL.dll')    
-
-print ("Hola mundo")
+print ("Inicio")
+os.add_dll_directory(r'C:\Users\jffig\anaconda3\pkgs\m2w64-gcc-libs-5.3.0-7\Library\mingw-w64\bin')
+os.add_dll_directory(r'C:\Users\jffig\anaconda3\Library\mingw-w64\bin')
+TestLib = ctypes.WinDLL(r'D:\Software\Sistemas\Investigacion\OSSRPMDSS\MCDA-MS\ELECTREIIIMS\ELECTREIIISL.dll')  
+print ("Fin")

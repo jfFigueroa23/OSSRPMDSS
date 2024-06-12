@@ -8,7 +8,7 @@
 	<math.h>
 	<iostream>
 
-1613267676 
+1612745348 
 
 1614974508 source:/media/francisco/Varios/Software/Sistemas/Investigacion/ELECTREIIISL/ElectreIIISL.cpp
 	<stdio.h>
@@ -60,8 +60,6 @@
 	<stdio.h>
 	<stdlib.h>
 	<string>
-
-1612745348 
 
 1606362254 source:/media/francisco/Varios/Software/Sistemas/Investigacion/METODOMULTICRITERIO/MetodoMulticriterio.cpp
 	"MetodoMulticriterio.hpp"
@@ -255,6 +253,67 @@
 	<regex>
 
 1614980343 source:/media/francisco/Varios/Software/Sistemas/Investigacion/OSSRPMDSS/MADM-SL/ELECTREIIISL/ElectreIIISL.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	<cstring>
+	<iostream>
+	<iomanip>
+	<algorithm>
+	"../ELECTREIII/ElectreIII.hpp"
+
+1621395088 source:d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\electreiii\electreiii.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	<algorithm>
+	<math.h>
+	<iostream>
+	"ElectreIII.hpp"
+
+1606622267 d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\electreiii\electreiii.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../SUPERACION/Superacion.hpp"
+
+1614897832 d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\superacion\superacion.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+
+1606581928 d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\metodomulticriterio\metodomulticriterio.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1606362254 source:d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\metodomulticriterio\metodomulticriterio.cpp
+	"MetodoMulticriterio.hpp"
+
+1614897869 source:d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\superacion\superacion.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<string.h>
+	"../METODOMULTICRITERIO/MetodoMulticriterio.hpp"
+	"../LIBRERIAS/utilerias/utilerias.hpp"
+	"Superacion.hpp"
+
+1612741748 d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\librerias\utilerias\utilerias.hpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<regex>
+
+1614980343 source:d:\software\sistemas\investigacion\ossrpmdss\mcda-sl\electreiiisl\electreiiisl.cpp
 	<stdio.h>
 	<stdlib.h>
 	<string>
