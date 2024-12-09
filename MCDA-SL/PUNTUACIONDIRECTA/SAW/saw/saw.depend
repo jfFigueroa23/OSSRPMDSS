@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1731720267 source:c:\users\geovany\documents\github\ossrpmdss\mcda-sl\saw\saw\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cfloat>
+	<vector>
+	<algorithm>
+
