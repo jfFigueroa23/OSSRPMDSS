@@ -1,0 +1,86 @@
+<div class="container">
+  <div class="archivo-select">
+    <input type="file" (change)="onFileSelected($event)" accept=".txt" />
+  </div>
+    <div class="input-grid">
+      <div>
+        <label for="num-alternatives">Número de Alternativas:</label>
+        <input
+          type="number"
+          id="num-alternatives"
+          [(ngModel)]="numAlternatives"
+          placeholder="Mínimo 1"
+          (change)="generateArrays()"
+          min="1"
+        />
+      </div>
+      <div>
+        <label for="num-criteria">Número de Criterios:</label>
+        <input
+          type="number"
+          id="num-criteria"
+          [(ngModel)]="numCriteria"
+          placeholder="Mínimo 1"
+          (change)="generateArrays()"
+          min="1"
+        />
+      </div>
+    </div>
+  
+    <div *ngIf="numAlternatives && numCriteria">
+      <div class="criteria-inputs">
+        <h3>Definir Criterios</h3>
+        <div *ngFor="let criterion of criteria; let i = index" class="matrix-row">
+          <label> Criterio {{ i + 1 }}:</label>
+          <div>
+            <label>¿Es beneficioso?</label>
+            <select [(ngModel)]="criterion.beneficial" >
+              <option [ngValue]="'B'">Sí</option>
+              <option [ngValue]="'N'">No</option>
+            </select>
+          </div>
+          <div>
+            <label>Peso:</label>
+            <input type="number" [(ngModel)]="criterion.weight" placeholder="Peso del criterio" />
+          </div>
+        </div>
+      </div>
+  
+      <div class="alternatives-inputs">
+        <h3>Definir Alternativas</h3>
+        <div *ngFor="let alternative of alternatives; let i = index" class="matrix-row">
+          <label>Alternativa {{ i + 1 }}</label>
+          <div *ngFor="let criterion of criteria; let j = index">
+            <label>{{ 'Criterio ' + (j + 1) }}:</label>
+            <input
+              type="number"
+              [(ngModel)]="alternative[j]"
+              placeholder="Valor de la alternativa"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <button (click)="submitData()" class="predict-button">Obtener Listado</button>
+    <div *ngIf="generated">
+      <h3>Resultado</h3>
+      <table>
+        <thead>
+          <tr>
+        <th>Posición</th>
+        <th>Alternativa</th>
+        <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let alternative of ranking; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>Alternativa {{ alternative[1] + 1 }}</td>
+        <td>{{ alternative[0] }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

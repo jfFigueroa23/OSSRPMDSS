@@ -1,0 +1,12 @@
+.contenedor_back{
+    display: flex;
+    justify-content: center;
+}
+
+.foto_hogar{
+    cursor: pointer;
+    width: 3rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 50%;
+}

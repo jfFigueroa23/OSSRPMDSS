@@ -18,4 +18,5 @@ Collaborators and developers:
 - Melina Sepulveda: Software developer
 - Jose Quintana: Software developer
 - Leonardo Navarro: Software developer
- 
+- Roberto Betancourt Soto: Software developer
+- Jose Antonio Cabanillas Cota: Software developer
