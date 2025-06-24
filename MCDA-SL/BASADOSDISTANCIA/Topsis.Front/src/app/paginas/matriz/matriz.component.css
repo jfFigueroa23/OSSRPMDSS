@@ -1,0 +1,256 @@
+h1 {
+    text-align: center; 
+    font-size: 2.0rem; 
+    margin: 20px 0; 
+}
+
+.btn-realizar {
+    margin-left: 30px; 
+}
+
+.btn-csv {
+    position: absolute; 
+    top: 20px; 
+    left: 70px;
+    padding: 5px 5px;
+    font-size: 0.8rem;
+    z-index: 1000; 
+}
+
+.excel-icon1 {
+    position: absolute; 
+    top: 10px; 
+    
+    width: 45px;
+    height: auto;
+    z-index: 1000; 
+    left: 20px;
+}
+
+
+
+/* Estos son los estilos de los inputs donde se crean columnas y filas */
+.custom-input {
+    width: 100px; 
+    height: 30px; 
+    font-size: 12px; 
+}
+
+.custom-input-valor {
+    width: 100px; 
+    height: 30px; 
+    font-size: 12px; 
+}
+
+.form-container {
+    background-color: rgb(241, 239, 239);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: -500px;  
+    margin-right: auto;
+}
+
+.form-container h2 {
+    margin-left: 80px;
+    font-size: 1.8rem;
+}
+
+.form-container h3 {
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 1.8rem; 
+}
+
+.form-container h4 {
+    margin-top: 30px;
+    margin-left: 55px;
+    font-size: 1.8rem; 
+}
+
+/* Estilos para la tabla matriz */
+.matriz-table {
+    margin-top: -700px; 
+    width: 100%; 
+    overflow-x: auto; 
+    margin-left: 30px; 
+}
+
+/* Estilos del navbar */
+.custom-navbar {
+    font-size: 1.25rem; 
+    padding: 1rem 0.10rem; 
+}
+
+
+
+
+
+
+
+/* Estilo hover de los links del navbar */
+.custom-navbar .nav-link:hover {
+    color: #cfdcd2;
+}
+
+/* Estilo para el toggler */
+.custom-navbar .navbar-toggler {
+    font-size: 1.25rem; 
+    padding: 0.75rem; 
+}
+
+/* Estilo para la marca del navbar */
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem; 
+}
+
+@media (min-width: 992px) {
+    .custom-navbar .navbar-nav .nav-link {
+        padding-right: 2rem; 
+        padding-left: 2rem;
+    }
+}
+
+/* Estilos para los botones dentro del form */
+.button-container {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.button-container h2 {
+    margin-left: -20px;
+    margin-top: 60px;
+    margin-bottom: -15px; 
+    font-size: 1.8rem; 
+}
+
+.button-container .btn {
+    margin: 0 10px; 
+    padding: 5px 10px; 
+    font-size: 0.9rem; 
+    display: inline-block; 
+    margin-top: 30px;
+}
+
+/* Estilos para customizar el input y el botón y el icono de Excel */
+.import-export-buttons input[type="file"] {
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+
+.import-export-buttons button {
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.excel-icon {
+    width: 60px;
+    height: auto;
+    margin-top: -5px;
+    margin-left: 50px;
+}
+
+
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* configuracion para el formulario */
+    .form-container {
+        width: 100%;
+        left: 0; 
+        top: 0; 
+        margin: 0 auto; 
+        height: auto; 
+        padding: 10px;
+    }
+
+    /* Aqui se ajusta el margen de la matriz para pantallas pequeñas */
+    .matriz-table {
+        margin-top: 20px; 
+    }
+
+    /* Aqui se ajusta los botones de importar/exportar */
+    .import-export-buttons {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .import-export-buttons input[type="file"],
+    .import-export-buttons button {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+}
+
+/* Estilos responsivos para pantallas medianas y grandes */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .form-container {
+        width: 80%; 
+        height: auto; 
+        padding: 20px;
+    }
+
+    .matriz-table {
+        width: 100%; 
+    }
+
+    .button-container .btn {
+        font-size: 1rem; /* Aumento el tamaño de la fuente de los botones */
+    }
+}
+
+@media (min-width: 1200px) {
+    .form-container {
+        width: 60%; /* Ancho del 60% para pantallas grandes */
+    }
+
+    .button-container .btn {
+        font-size: 1.1rem; /* Aumento el tamaño de la fuente de los botones */
+    }
+
+    .custom-navbar {
+        font-size: 1.5rem; /* Aumento del tamaño de la fuente del navbar */
+    }
+}
+
+
+#errorToast {
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb; 
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    position: fixed; 
+    bottom: 20px; 
+    right: -350px; 
+    max-width: 500px; 
+    z-index: 1050; 
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out; 
+}
+  
+#errorToast.show {
+    animation: slide-in 0.5s forwards; 
+    opacity: 1; 
+}
+  
+/* Definino la animacion */
+@keyframes slide-in {
+    from {
+      right: -350px; 
+      opacity: 0; 
+    }
+    to {
+      right: 20px; 
+      opacity: 1; 
+    }
+}
+  

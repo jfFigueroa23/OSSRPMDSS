@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg custom-navbar" style="background-color: #f8f9fa; color: #ffffff;">
+  <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <!-- <a class="nav-link">Inicio</a> -->
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/matriz">Matrix</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/resultados">Results</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+
+<div *ngIf="outputAPI" class="output-container">
+  <div class="output-box">
+    <div class="result-section" *ngFor="let section of parsedOutput; let i = index; trackBy: trackByFn">
+      <h4>{{ section[0] }}</h4> <!-- El primer elemento de cada seccion es el encabezado -->
+      <div *ngIf="i === (parsedOutput.length - 1)" class="form-background">
+        <table class="result-table" [id]="'section-' + i">
+          <tr *ngFor="let item of section.slice(1)">
+            <td *ngFor="let cell of item.split('\t')">{{ cell }}</td>
+          </tr>
+        </table>
+        <!-- Boton "Ver Grafico" -->
+        <button class="btn btn-primary" [routerLink]="['/grafica']">View Results Graph</button>
+      </div>
+      <table *ngIf="i !== (parsedOutput.length - 1)" class="result-table" [id]="'section-' + i">
+        <tr *ngFor="let item of section.slice(1)">
+          <td *ngFor="let cell of item.split('\t')">{{ cell }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="step-progress">
+  <div class="step" *ngFor="let step of steps; let i = index" (click)="scrollToSection(i)" [ngClass]="{ 'active': currentStep === i }">
+    {{ i + 1 }}
+  </div>
+  <div class="progress-line"></div> <!-- Esta es parte de la linea de progreso -->
+</div>

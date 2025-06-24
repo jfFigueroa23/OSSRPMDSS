@@ -1,0 +1,147 @@
+.output-container {
+  display: flex;
+  justify-content: center;
+}
+
+.output-box {
+  width: 70%; 
+  margin-top: 20px;
+}
+
+.result-section {
+  margin-bottom: 900px; /* Este es para reducir el espacio entre cada seccion de resultados */
+}
+
+.result-section h4 {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.result-table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.result-table td {
+  padding: 5px 10px; 
+  border: 1px solid #ddd; 
+  text-align: left; 
+}
+
+.result-item {
+  margin-bottom: 5px;
+  font-size: 1rem; 
+  font-family: 'Arial', sans-serif; 
+}
+
+
+.progress-line {
+  position: absolute;
+  height: 2px; 
+  background-color: #007bff; 
+  bottom: 15px; 
+  left: 15px; 
+  transition: width 0.3s ease; 
+}
+
+.step-progress {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 60px;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.step.active {
+  background-color: #0056b3; 
+}
+
+
+/* Estilos del navbar */
+.custom-navbar {
+  font-size: 1.25rem; 
+  padding: 1rem 0.10rem; 
+}
+
+/* Estilo normal de los links del navbar */
+.custom-navbar .nav-link {
+  font-size: 1.5rem; 
+  padding: 0.5rem 1rem; 
+  color: #000000; 
+  text-decoration: none; 
+}
+
+/* Estilo hover de los links del navbar */
+.custom-navbar .nav-link:hover {
+  color: #cfdcd2; 
+}
+
+/* Estilo para el toggler */
+.custom-navbar .navbar-toggler {
+  font-size: 1.25rem; 
+  padding: 0.75rem; 
+}
+
+/* Estilo para la marca del navbar */
+.custom-navbar .navbar-brand {
+  font-size: 1.5rem; 
+}
+
+@media (min-width: 992px) {
+  .custom-navbar .navbar-nav .nav-link {
+      padding-right: 2rem; 
+      padding-left: 2rem;
+  }
+}
+
+
+
+
+
+
+/* Estilo para el fondo del formulario de Orden Clasificado */
+.form-background {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;  
+}
+
+.form-background .result-table {
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.form-background .result-table th, 
+.form-background .result-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.form-background .result-table th {
+  background-color: #f2f2f2;
+}
+
+.form-background button {
+  margin-top: 20px; 
+  margin-right: 200px;
+}
