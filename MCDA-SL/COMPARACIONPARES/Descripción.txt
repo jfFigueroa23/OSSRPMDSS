@@ -1,0 +1,25 @@
+
+   - El usuario ingresa el tamaño de la matriz de comparación de criterios (n).
+   - Luego, ingresa la matriz cuadrada de comparación por pares para los criterios.
+   - El programa también solicita el número de alternativas (a) a evaluar.
+   - Para cada criterio, se ingresan las matrices de comparación por pares de las alternativas.
+
+	Cálculos para Criterios:
+   - La matriz de criterios se normaliza dividiendo cada valor de la columna por la suma total de esa columna.
+   - Se calcula el promedio de cada fila de la matriz normalizada, obteniendo así los pesos de cada criterio.
+   - Se calcula el valor de lambda máximo (λmax) multiplicando la matriz original por el vector de pesos y dividiendo por el propio vector.
+   - A partir de λmax se obtiene el Índice de Consistencia (CI) y luego el Índice de Consistencia Relativa (CR).
+   - Si CR < 0.1, la matriz es consistente y se puede continuar.
+
+	Cálculos para Alternativas:
+   - Por cada criterio, se normaliza su matriz de alternativas.
+   - Se calcula el promedio de cada fila, obteniendo el puntaje relativo de cada alternativa respecto a ese criterio.
+   - Se guardan todos estos puntajes para luego ponderarlos.
+
+	Puntaje Total:
+   - Cada puntaje de alternativa es ponderado por el peso del criterio correspondiente.
+   - Se suman los resultados ponderados para cada alternativa, obteniendo el puntaje total.
+
+	Selección Final:
+   - Se determina cuál alternativa tiene el puntaje total más alto.
+   - El programa muestra cuál es la mejor alternativa con base en los criterios y evaluaciones proporcionadas.

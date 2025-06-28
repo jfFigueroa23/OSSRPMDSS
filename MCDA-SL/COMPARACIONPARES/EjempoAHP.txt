@@ -1,0 +1,43 @@
+Alternativas:
+ 
+A1: Auto
+
+A2: Bicicleta
+
+A3: Transporte público
+
+Criterios:
+
+C1: Costo
+
+C2: Tiempo
+
+C3: Comodidad
+
+Matriz de comparación de criterios (3x3)
+	C1	C2	C3
+C1	1	3	5
+C2	0.3	1	3
+C3	0.2	0.3	1
+
+Matrices de alternativas por criterio
+Para Costo:
+
+	A1	A2	A3
+A1	1	3	5
+A2	0.3	1	3
+A3	0.2	0.3	1
+
+Para Tiempo:
+
+	A1	A2	A3
+A1	1	0.5	4
+A2	2	1	7
+A3	0.25	0.14	1
+
+Para Comodidad:
+
+	A1	A2	A3
+A1	1	5	3
+A2	0.2	1	0.3
+A3	0.3	3	1
