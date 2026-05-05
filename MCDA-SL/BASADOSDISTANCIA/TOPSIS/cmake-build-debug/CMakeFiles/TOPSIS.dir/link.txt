@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -g -O0 -Wall -Wextra CMakeFiles/TOPSIS.dir/main.cpp.o -o TOPSIS  libtopsis_lib.a 

@@ -1,0 +1,35 @@
+# Configuración de Depuración para TOPSIS
+# Este archivo contiene información para configurar el depurador correctamente
+
+# Información de compilación
+BUILD_TYPE=Debug
+COMPILER=g++ (GCC 13.3.0)
+STANDARD=C++20
+
+# Flags de depuración utilizados
+DEBUG_FLAGS=-g -O0 -Wall -Wextra
+
+# Archivos fuente principales
+MAIN_SOURCE=../main.cpp
+TOPSIS_SOURCE=../TOPSIS.cpp
+TOPSIS_HEADER=../TOPSIS.hpp
+
+# Ejecutable con símbolos de depuración
+EXECUTABLE=./TOPSIS
+
+# Para depurar con gdb:
+# gdb ./TOPSIS
+# break main
+# break TOPSIS::procesarDatos
+# run
+
+# Para depurar con IDE (CLion, VSCode, etc.):
+# - Asegurarse de que el build type sea "Debug"
+# - Los breakpoints deberían funcionar en:
+#   * main.cpp: líneas en main()
+#   * TOPSIS.cpp: métodos de la clase TOPSIS
+#   * TOPSIS.hpp: declaraciones de métodos
+
+# Verificación de símbolos de depuración:
+# file TOPSIS | grep "with debug_info"
+# objdump -h TOPSIS | grep debug

@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string>
 #include <string.h>
-#include "../SUPERACION/Superacion.hpp"
+#include "../../SUPERACION/Superacion.hpp"
 
 using namespace std;
 

@@ -1,0 +1,4 @@
+/mnt/Varios/Software/Sistemas/INVESTIGACION/OSSRPMDSS/MCDA-SL/BASADOSDISTANCIA/TOPSIS/cmake-build-debug/CMakeFiles/topsis_lib.dir
+/mnt/Varios/Software/Sistemas/INVESTIGACION/OSSRPMDSS/MCDA-SL/BASADOSDISTANCIA/TOPSIS/cmake-build-debug/CMakeFiles/TOPSIS.dir
+/mnt/Varios/Software/Sistemas/INVESTIGACION/OSSRPMDSS/MCDA-SL/BASADOSDISTANCIA/TOPSIS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/Varios/Software/Sistemas/INVESTIGACION/OSSRPMDSS/MCDA-SL/BASADOSDISTANCIA/TOPSIS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

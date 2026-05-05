@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtopsis_lib.a CMakeFiles/topsis_lib.dir/TOPSIS.cpp.o
+/usr/bin/ranlib libtopsis_lib.a
